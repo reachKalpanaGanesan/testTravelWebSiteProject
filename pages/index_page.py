@@ -8,5 +8,6 @@ class IndexPage(BasePage):
     def wait_and_click_register_button(self):
         self.explicitly_wait_and_find_element(MAX_WAIT_INTERVAL, IndexPageLocators.REGISTER_LINK).click()
 
+    #note used method as of now.
     def wait_and_click_sign_on_button(self):
         self.explicitly_wait_and_find_element(MAX_WAIT_INTERVAL, IndexPageLocators.SIGN_ON_LINK).click()
