@@ -1,0 +1,19 @@
+[project]
+name = "testtravelwebsiteproject"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "siba",email = "sssahu24@gmail.com"}
+]
+readme = "README.md"
+[tool.poetry.dependencies]
+python = "3.12.8"
+selenium = "4.29.0"
+pytest = "8.3.4"
+junit-xml = "1.9"
+pytest-html = "3.2.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
